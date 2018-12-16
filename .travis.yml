@@ -22,6 +22,6 @@ before_deploy:
 deploy:
   skip_cleanup: true # prevents travis from deleting the build
   provider: heroku
-  app: depprac # see README
+  app: 'depprac' # see README
   api_key:
     secure: 'gN7qqwmB8YuMwqIwD067gtWVAq1HwWaLGwt/GnuY9JJz197wy/nO/+5640d/hlObOlRfMSG+6PsJnPl4YJHIeUvC7IPZgvLXjLnsKy3PUvGkycm3/9EEsqD/vOdlQauuWLySEeXuqEnSQ9oSdL8NutpJg0RIFEja6kHwJi6gDmO0TbnzoffQxSCM+iUKG3CdxuxiiQZI5kQuO627nnZREwRmJOthAnKX8OM3by3ffnIL5r09B/thI9RCDCcF4g5Rw5EjOWIXgaeZqlIYlG0OvauhARZ0Rj7l1xfD+E9IJY6wdH5FnRd11YG1KgjkiJMRxWoRvXIiv89nzv30TjV+Z08r519Wd+te5jrbZBJA52BuEySTh7MhQmFkr1f+hBftlJWU4XTqOXvfuM033g78fPrwXaP463+a9OUYJii2bVT0yrfBF476pcFlOoaPYZLW5otjc/QIWzoK8pnVJaVto8Z3iUTlGlDMxJSNGRPKeHefXigSBfOv0dykZt5mXOUAP07dje9wHPcnjJ5bag7oJW69+dFQiklUK6Uf87RdoVM8XsxnCNF6urmKj85e3oH5oInbK64FMN7yki19PvuTv4EDyA+7LpOKLBfDP3hU0QxtuR0UcAOjUvmVv5MM4nIrGXqt7CC3ZVms0l4slGSwDHgZByuJFvoywPkNACENlkc='
